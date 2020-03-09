@@ -1,0 +1,12 @@
+<form ng-controller="myCtrl">
+    <div>
+        <input type="text" name="username" id="username" ng-model="username"  autocomplete="username">
+    </div>
+    <div>
+        <input type="password" name="password" id="password" ng-model="password" autocomplete="current-password">
+    </div>
+    <button type="submit" ng-click="submit()">login</button>
+</form>
+
+<button ng-click="getCat()">get categories</button>
+<button ng-click="getAdmins()">get admins</button>
